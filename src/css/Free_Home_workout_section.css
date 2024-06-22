@@ -1,0 +1,23 @@
+.freehome_workout{
+    max-width: 50rem;
+    
+}
+.freehome_workout h2{
+    font-size: 90px;
+    line-height: 1.1em;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: Sato, sans-serif;
+    font-size: 64px;
+    line-height: 1.1em;
+    font-weight: 500;
+}
+.freehome_workout button{
+    padding: 20px;
+    margin-top: 20px;
+}
+.workout{
+    background-color: #eef0f4;
+    padding: 100px 0px;
+}
+

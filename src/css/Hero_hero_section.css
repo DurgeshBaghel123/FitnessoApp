@@ -1,0 +1,57 @@
+.hero-hero-section .home-image{
+    height: 665px;
+    overflow: hidden;
+    
+    /*background-color: yellow;*/
+}
+.hero-hero-section .home-image img{
+    border-radius: 10px;
+}
+.hero-hero-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url();
+}
+.hero-hero-section .home-text{
+    padding-top:70px ;
+}
+.hero-hero-section .home-text span{
+    color: #081158;
+    margin-bottom: 30px;
+    display: block;
+}
+.hero-hero-section .home-text h1{
+    
+    font-family: Sato, sans-serif;
+    font-size: 72px;
+    line-height: 1.1em;
+    font-weight: 500;
+}
+.hero-hero-section .home-text p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 1.8em;
+    max-width: 500px;
+}
+
+@media screen and (max-width:578px){
+    .hero-hero-section .home-text {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .hero-hero-section .home-text h1 {
+        font-size: 35px;
+        line-height: 1.4;
+    }
+    .hero-hero-section .home-image img{
+        margin-top: 40px;
+    }
+    .hero-hero-section{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .hero-hero-section .home-image{
+        height: auto;
+    }
+}

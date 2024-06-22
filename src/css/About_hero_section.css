@@ -1,0 +1,69 @@
+.about-hero-section .about-image{
+    height: 665px;
+    overflow: hidden;
+    
+    /*background-color: yellow;*/
+}
+.about-hero-section .auto-text{ 
+    position:absolute;
+    top: 100px;
+}
+.about-hero-section .auto-text span{
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+    color: red!important;;
+    letter-spacing: 1px;
+}
+.about-hero-section .about-image img{
+    border-radius: 10px;
+}
+.about-hero-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url();
+}
+.about-hero-section .about-text{
+    padding-top:70px ;
+}
+.about-hero-section .about-text span{
+    color: #081158;
+    margin-bottom: 30px;
+    display: block;
+}
+.about-hero-section .about-text h1{
+    
+    font-family: Sato, sans-serif;
+    font-size: 72px;
+    line-height: 1.1em;
+    font-weight: 500;
+}
+.about-hero-section .about-text p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 1.8em;
+    max-width: 500px;
+}
+
+@media screen and (max-width:578px){
+    .about-hero-section .about-text {
+        padding-top: 10px;
+    }
+    .about-hero-section .about-text h1 {
+        font-size: 35px;
+        line-height: 1.4;
+    }
+    .about-hero-section .about-image img{
+        margin-top: 40px;
+    }
+    .about-hero-section{
+        padding-bottom: 0px;
+    }
+    .about-hero-section .about-image{
+        height: auto;
+    }
+    .about-hero-section .auto-text{ 
+        position:static;
+    }
+}

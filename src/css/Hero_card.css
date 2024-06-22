@@ -1,0 +1,35 @@
+.hero_card{
+    max-width: 450px;
+    position: relative;
+    opacity: 1.8;
+    
+}
+.hero_card h4{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Sato, sans-serif;
+    font-size: 28px;
+    line-height: 1.1em;
+    font-weight: 500;
+    max-width: 350px;
+    text-align: center;
+    color:#081158;
+}
+.hero_card .image{
+    
+}
+.hero_card .image .feature-grained{
+    position: absolute;
+    width:450px;
+    height:450px;
+    border-radius: 50%;
+    bottom: -50px;
+    
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, #8ea5a0, rgba(79, 92, 89, 0) 71%);
+}
+.hero_card p{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    color: #081158;
+}

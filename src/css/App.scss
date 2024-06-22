@@ -1,0 +1,33 @@
+$body-bgcolor:#eef0f4;
+$main-color:#081158;//this color is very usefull color this website heading,paragrap,button,section,fotter
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    // background-color: $body-bgcolor;
+
+}
+h1,p{
+    color:#081158;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: Sato, sans-serif;
+    font-size: 64px;
+    line-height: 1.1em;
+    font-weight: 500;
+    
+    color: #081158;
+    opacity: 0.8;
+}
+p{
+    line-height: 1.8em;
+    font-size: 20px;
+    opacity: 0.8;
+}
+

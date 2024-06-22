@@ -1,0 +1,150 @@
+$body-bgcolor: #eef0f4;
+$main-color: #081158;
+
+.Navbar {
+    position: sticky !important;
+    top: 0px;
+    background-color: white;
+    z-index: 999999;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+
+    li {
+
+        padding: 0rem 1.6rem;
+
+        a {
+            text-decoration: none;
+            color: $main-color;
+            font-weight: 500;
+            letter-spacing: 0.8px;
+            background-color: transparent;
+        }
+    }
+
+
+}
+
+.fa-solid {
+    background: transparent;
+}
+
+.navbar .fa-bars {
+    display: none;
+}
+
+@mixin flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-navbar {
+    @include flexbox;
+
+    &.logo {
+        @include flexbox;
+    }
+}
+
+.mobile-btn {
+    display: none;
+}
+
+.mobile-icon {
+    display: none;
+}
+
+@media screen and (max-width:948px) {
+    .main-navbar {
+        display: flex;
+        direction: column;
+    }
+
+    .logo .mobile-btn {
+        display: none !important;
+    }
+}
+
+//for mobile
+@media screen and (max-width:578px) {
+    .navbar {
+        background-color: black;
+        display: block;
+        width: 250px;
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        height: 100vh;
+        margin-left: -250px;
+        transition: all 1s;
+        padding-left: 10px;
+        z-index: 9999;
+        color: white;
+    }
+
+    .mobile-icon {
+        display: inline-flex;
+        padding-right: 10px;
+    }
+
+    .show {
+        margin-left: 0px !important;
+    }
+
+    .navbar ul {
+        display: block;
+        padding: 10px;
+        background-color: black;
+    }
+
+    .navbar ul li {
+        padding: 1rem 0rem;
+        background-color: black;
+    }
+
+    .navbar ul li a {
+        color: white;
+    }
+
+    .navbar ul li a:hover {
+        font-weight: bold;
+
+    }
+
+    .navbar .menu {
+        background-color: black;
+    }
+
+    .main-navbar {
+        display: block;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    .navbar .fa-cart-shopping {
+        position: absolute;
+        top: -21px;
+        right: 0px;
+        display: none;
+    }
+
+    .mobile-btn {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+
+    }
+
+    .mobile-btn:hover {
+        font-weight: 800;
+        color: #081158;
+    }
+}

@@ -1,0 +1,41 @@
+/* .hero_experence h2 span{
+    margin-bottom: 10px;
+    font-size: 35px;
+    letter-spacing: 13px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.7;
+}*/
+.hero_experence p{
+    font-size: 14px;
+    color:black;
+    letter-spacing: 1px;
+    
+} 
+.hero_experence{
+    /*background-color:#081158;*/
+    height: 220px;
+    align-items: center;
+    
+}
+.hero_experence .col-md-4 span{
+    font-size: 35px;
+    color: #081158;
+    font-weight: 600;
+}
+/* .hero_experence .col-md-4{
+    
+    justify-content: center;
+    align-items: center;
+} */
+@media screen and (max-width:570px) {
+.hero_experence{
+    /*margin-top: 30px;*/
+    display: none;
+}
+.hero_experence .col-md-4{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+}

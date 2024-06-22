@@ -1,0 +1,65 @@
+.paymentlogo img{
+    display: flex;
+    overflow: hidden;
+    width: 60px;
+    margin-right: 40px;
+    padding: 5px 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);
+}
+.left-f{
+    position: relative;
+}
+.paymentlogo{
+    position: absolute;
+    bottom: -20px;
+    
+}
+footer .row{
+    padding: 80px 0px;
+    background-color: #081158;
+    color: white;
+}
+footer .f-text{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'FontAwesome';
+    letter-spacing: 7px;
+}
+ .f-center p a , .f-right p a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.f-center{
+    padding-left: 200px;
+}
+.f-right{
+    padding-left: 166px;
+}
+@media screen and (max-width:578px) {
+    footer .left-f{
+        display: none;
+       
+    }
+    footer .row{
+        padding: 40px 0px;
+    }
+    
+    .f-center{
+        padding: 0px;
+    }
+    .f-right{
+        padding: 0px;
+    }
+}

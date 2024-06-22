@@ -1,0 +1,60 @@
+.contact-section{
+    background-image: url('src/bg_img/5e8318706203833a1bd11fad_logan-weaver-pD5kSwtNgMc-unsplash-p-1600.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+    margin-top: 100px;
+}
+.contact-section .col-md-10{
+    background-color:#cfddee;
+    padding: 100px 50px;
+    border-radius: 10px;
+}
+// .contact-section .inputfield{
+//     display: flex;
+// }
+.contact-section h2{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: Sato, sans-serif;
+    font-size: 64px;
+    line-height: 1.1em;
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #081158;
+}
+.contact-section p{
+    max-width: 50rem;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 1.8em;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #081158;
+}
+.contact-section .inputfield input{
+    padding: 0.8rem;
+}
+
+@media screen and (max-width:578px){
+    .contact-section h2{
+        font-size: 32px;
+    }
+    .contact-section p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .contact-section{
+        padding: 0px;
+    }
+    .contact-section .col-md-10{
+        padding: 0px;
+        border-radius: 0px;
+    }
+    .contact-section .inputfield input{
+        margin-bottom: 30px;
+    }
+    .contact-section .inputfield{
+    padding: 15px;
+    margin: 0px;
+    }
+}
